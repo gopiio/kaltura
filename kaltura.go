@@ -47,6 +47,6 @@ func (k *Kaltura) DoRequest(method, resource, action string, payload map[string]
 	handleError(err)
 
 	var prettyJSON bytes.Buffer
-	json.Indent(&prettyJSON, body, "", " ")
+	json.Indent(&prettyJSON, body, "", "\t")
 	return string(prettyJSON.Bytes())
 }
