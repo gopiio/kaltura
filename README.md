@@ -7,7 +7,7 @@ go get github.com/gopiio/kaltura
 ```
 Include the import as 
 ```
-import("github.com/gopiio/kaltura/kaltura")
+import("github.com/gopiio/kaltura")
 ```
 
 
